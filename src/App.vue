@@ -1,28 +1,49 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navigation/>
+    <div id="tbody">
+        <THeader v-show="headshow"/>
+        <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navigation from './components/Navigation'
+import THeader from './components/THeader'
+import { mapState } from 'vuex'
 
 export default {
   name: 'App',
+  data() {
+    return {
+    }
+  },
+  computed:{
+    ...mapState(['headshow'])
+  },
   components: {
-    HelloWorld
+    Navigation,
+    THeader,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
+
+#app{
+  display: flex;
+}
+#tbody{
+  margin: 0 auto;
+  width: 1170px;
+  height: 100vh;
+}
+
 </style>

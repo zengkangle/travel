@@ -1,0 +1,58 @@
+{
+  "id": "3668906",
+  "name": "旅游",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14727",
+      "name": "社区",
+      "font_class": "shequ",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4686547",
+      "name": "发布",
+      "font_class": "fabu",
+      "unicode": "ec09",
+      "unicode_decimal": 60425
+    },
+    {
+      "icon_id": "6866628",
+      "name": "用户管理",
+      "font_class": "yonghuguanli",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "695192",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "2727691",
+      "name": "服务目录",
+      "font_class": "service-directory",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "7478256",
+      "name": "酒店",
+      "font_class": "jiudian",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "9908901",
+      "name": "旅游攻略",
+      "font_class": "lvyougonglve",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
